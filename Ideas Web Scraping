@@ -1,0 +1,24 @@
+I
+Recordemos los criterios para selecionar el scraping:
+
+● Idoneidad de las respuestas (deberán ser claras y completas).
+● Complejidad del sitio web elegido para la extracción.
+● Síntesis y claridad, a través del uso de comentarios, del código resultante.
+● Presentación adecuada de los datos.
+● Organización y claridad del documentos de entrega final.
+● Completitud de los documentos requeridos para la entrega final.
+mp
+Ideas:
+- Hacer web scraping de subtitulos de youtube, para concentrarnos en un tema específico como por ejemplo temas o problemas de movilidad
+Aqui hay algun ejemplo de como hacerlo manualmete: 
+https://medium.com/future-journalism-project/how-to-extract-the-transcript-for-captions-on-youtube-videos-7720a856af
+
+- tal vez sea mejor empezar por algo mas sencillo e ir acanzando en complejidad  
+una informacion que siempre quise descargae es la de esta pagina
+https://www.tenable.com/plugins/nessus/23847 
+en la cual cambiando el numero cambia informacion de una vulnerabilidad
+
+
+- https://www.secplicity.org/threat-landscape/?s=2019-02-01&e=2019-02-28&type=malware&region=AF+AX+AL+DZ+AD+AO+AM+AT+AZ+BH+BY+BE+BJ+BA+BW+BV+IO+BG+BF+BI+CM+CV+CF+TD+KM+CG+CD+CI+HR+CY+CZ+DK+DJ+CM+EG+GQ+ER+EE+ET+FO+FI+FR+TF+GA+GM+GE+DE+GH+GI+GR+GL+GG+GN+GW+HM+VA+HU+IS+IR+IQ+IE+IM+IL+IT+JE+JO+KZ+KE+KW+KG+LV+LB+LS+LR+LY+LI+LT+LU+MK+MG+MW+ML+MT+MR+MU+YT+MD+MC+ME+MA+MZ+NA+NL+NE+NG+NO+OM+PS+PL+PT+QA+RE+RO+RU+RW+SH+SM+ST+SA+SN+RS+SC+SL+SK+SI+SO+ZA+SS+ES+SD+SJ+SZ+SE+CH+SY+TJ+TZ+TG+TN+TR+TM+UG+UA+AE+GB+UZ+EH+YF+ZM+ZW
+
+
