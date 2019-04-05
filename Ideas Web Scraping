@@ -21,8 +21,9 @@ en la cual cambiando el numero cambia informacion de una vulnerabilidad
 
 - https://www.secplicity.org/threat-landscape/?s=2019-02-01&e=2019-02-28&type=malware&region=AF+AX+AL+DZ+AD+AO+AM+AT+AZ+BH+BY+BE+BJ+BA+BW+BV+IO+BG+BF+BI+CM+CV+CF+TD+KM+CG+CD+CI+HR+CY+CZ+DK+DJ+CM+EG+GQ+ER+EE+ET+FO+FI+FR+TF+GA+GM+GE+DE+GH+GI+GR+GL+GG+GN+GW+HM+VA+HU+IS+IR+IQ+IE+IM+IL+IT+JE+JO+KZ+KE+KW+KG+LV+LB+LS+LR+LY+LI+LT+LU+MK+MG+MW+ML+MT+MR+MU+YT+MD+MC+ME+MA+MZ+NA+NL+NE+NG+NO+OM+PS+PL+PT+QA+RE+RO+RU+RW+SH+SM+ST+SA+SN+RS+SC+SL+SK+SI+SO+ZA+SS+ES+SD+SJ+SZ+SE+CH+SY+TJ+TZ+TG+TN+TR+TM+UG+UA+AE+GB+UZ+EH+YF+ZM+ZW
 
-- Realizar un web scraping de periódicos en linea, extrayendo noticias de tipo financiero. Para incluir el país de origen de cada integrante, 
-se sugiere realizarlo de periódicos tanto de Colombia como de México. Dichas extracción podría tener la siguiente estructura:
+- Realizar un web scraping de periódicos en linea, extrayendo noticias de tipo financiero. Para incluir el país de origen de los 
+integrantes del equipo, se sugiere realizarlo de periódicos tanto de Colombia como de México. Dichas extracciones podrían tener 
+la siguiente estructura:
 *Nombre del periódico
 *Fecha de la publicación
 *Encabezado
@@ -31,3 +32,8 @@ se sugiere realizarlo de periódicos tanto de Colombia como de México. Dichas e
 Se debe contemplar que cada página tiene sus propios autores, tecnología y barreras. 
 - Se encontró un documento que se adjunta en el proyecto, en el cual se realiza una investigación similar a la propuesta. 
 Sin embargo en ella se extraen noticias de distintos tipos.  
+- La inspiración de extraer información financiera de los periódicos es porque dicha información podría complementar datos que ya se 
+tienen. Estos datos pueden ayudar a predecir tendencias financieras como incremento en tasas, tipos de cambio de divisas entre muchas
+otras cosas. 
+- Es importante considerar también que sería un proceso repetitivo, quizás diario, semanal o mensual; porque la información cambia
+constantemente, y por eso utilizar web scraping (automatizar el proceso de extracción) es importante.
