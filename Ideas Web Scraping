@@ -21,7 +21,11 @@ en la cual cambiando el numero cambia informacion de una vulnerabilidad
 
 - https://www.secplicity.org/threat-landscape/?s=2019-02-01&e=2019-02-28&type=malware&region=AF+AX+AL+DZ+AD+AO+AM+AT+AZ+BH+BY+BE+BJ+BA+BW+BV+IO+BG+BF+BI+CM+CV+CF+TD+KM+CG+CD+CI+HR+CY+CZ+DK+DJ+CM+EG+GQ+ER+EE+ET+FO+FI+FR+TF+GA+GM+GE+DE+GH+GI+GR+GL+GG+GN+GW+HM+VA+HU+IS+IR+IQ+IE+IM+IL+IT+JE+JO+KZ+KE+KW+KG+LV+LB+LS+LR+LY+LI+LT+LU+MK+MG+MW+ML+MT+MR+MU+YT+MD+MC+ME+MA+MZ+NA+NL+NE+NG+NO+OM+PS+PL+PT+QA+RE+RO+RU+RW+SH+SM+ST+SA+SN+RS+SC+SL+SK+SI+SO+ZA+SS+ES+SD+SJ+SZ+SE+CH+SY+TJ+TZ+TG+TN+TR+TM+UG+UA+AE+GB+UZ+EH+YF+ZM+ZW
 
-Hola César, estoy de acuerdo en que hay que empezar por algo más sencillo en cuestión del web scraping. Entré a la página que recomiendas
-de tenable, sin embargo no entiendo muy bien que es lo que hace, ¿Me podrías ayudar?
-El día de hoy entrego una tarea de otra asignatura, y después de eso ya estoy 100% con este proyecto, si gustas nos podemos poner de acuerdo
-en horarios o tareas a realizar durante toda esta semana, ¿Cómo te acomoda mejor trabajarlo?
+- Realizar un web scraping de periódicos en linea, extrayendo noticias de tipo financiero. Para incluir el país de origen de cada integrante, 
+se sugiere realizarlo de periódicos tanto de Colombia como de México. Dichas extracción podría tener la siguiente estructura:
+*Nombre del periódico
+*Fecha de la publicación
+*Encabezado
+*Cuerpo de la publicación
+*Autor de la publicación
+Se debe contemplar que cada página puede tener sus propios 
