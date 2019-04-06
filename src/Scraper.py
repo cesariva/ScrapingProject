@@ -3,6 +3,8 @@
 import sys
 import ConfigParser
 import io
+import csv
+import os
 
 class Scrapper:
     def __init__(self):	
@@ -19,7 +21,29 @@ class Scrapper:
       print(config.get('general', 'query_delay')+" seconds")
       print("Storage file")
       print(config.get('target', 'scrap_file'))
+      self.filename=config.get('target', 'scrap_file')
+      self.delay=config.get('general', 'query_delay')
+      self.base_url=config.get('target', 'base_url')
 
+    def load_file(self):
+      exists=os.path.isfile(self.filename)
+      if exists:
+      	with open(self.filename, mode='r') as csv_file:
+          csv_reader = csv.DictReader(csv_file)
+          
+    def scrap_obs(self):
+      print("Scraping obs")	
+    	
+    def store_obs(self):
+      print("scraping Obs")
+    
+    
+    	
+    def check_end(self):
+      print("Cheking end")
+    	
+      
 
 
 s=Scrapper()
+s.load_file()
