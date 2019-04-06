@@ -5,6 +5,12 @@ import ConfigParser
 import io
 import csv
 import os
+#Para realizar las consultas HTTP
+import requests
+#Para realizar el parsing del HTML
+from bs4 import BeautifulSoup
+#Para interpretar el json
+import json
 
 class Scrapper:
     def __init__(self):	
@@ -32,13 +38,36 @@ class Scrapper:
           csv_reader = csv.DictReader(csv_file)
           
     def scrap_obs(self):
-      print("Scraping obs")	
+      print("Scraping obs")
+      #Pagina a consultar
+      page=requests.get("https://www.tenable.com/plugins/nessus/421")
+      #verifica el codigo de respuesta.
+      page.status_code	
+      #Almacena el contenido de la pagina
+      soup=BeautifulSoup(page.content)
+      print(soup.h1)
+      #Analizando el contendio de la pagina se identifico una estructura en json 
+      #que se incluye al fina de la pagina bajo el id "NEXT_DATA"
+      tenab_json=soup.find(id="__NEXT_DATA__").text
+      print(tenab_json)
+      #Convierte el contenido json en un diccionario se que pueda 
+      newDictionary=json.loads(tenab_json)
+      newDictionary
     	
     def store_obs(self):
       print("scraping Obs")
     
     
     	
+    def check_end(self):
+      print("Cheking end")
+    	
+      
+
+
+s=Scrapper()
+s.load_file()
+
     def check_end(self):
       print("Cheking end")
     	
