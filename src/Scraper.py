@@ -6,9 +6,9 @@ import io
 import csv
 import os
 #Para realizar las consultas HTTP
-#import requests
+import requests
 #Para realizar el parsing del HTML
-#from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 #Para interpretar el json
 import json
 import time
@@ -41,8 +41,18 @@ class Scrapper:
         csv_file.close()
           
     def scrap_obs(self):
-      print("Scraping obs"+str(self.counter))
-      
+      print("Scraping obs: "+str(self.counter))
+      #Pagina a consultar
+      page=requests.get(self.base_url+str(self.counter))
+      #Almacena el contenido de la pagina
+      soup=BeautifulSoup(page.content)
+      #Analizando el contenido de la pagina se identifico una estructura en json 
+      #que se incluye al final de la pagina bajo el id "NEXT_DATA"
+      tenab_json=soup.find(id="__NEXT_DATA__").text
+      #print(tenab_json)
+      #Convierte el contenido json en un diccionario se que pueda 
+      newDictionary=json.loads(tenab_json)
+      print(newDictionary)
     	
     def store_obs(self):
       print("storing Obs")
