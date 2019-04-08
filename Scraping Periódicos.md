@@ -34,3 +34,108 @@ Crawl-delay: 2
 Sitemap: http://www.elfinanciero.com.mx/sitemap.xml
 Sitemap: http://www.elfinanciero.com.mx/sitemap-google-news.xml
 ```
+### El Economista
+
+1. Archivo Robots.txt
+```
+User-agent: *
+Allow: /
+Disallow: /89775457
+Sitemap: https://www.eleconomista.com.mx/sitemaps/googlenews.xml
+Sitemap: https://www.eleconomista.com.mx/sitemaps/index.xml
+Sitemap: https://www.eleconomista.com.mx/sitemaps/daily.xml
+Disallow: /arteseideas/Willy-Sousa-artista-o-criminal--20120729-0016.html
+Disallow: /politica/Detienen-a-Willy-Sousa-por-fraude-en-Mexico-en-tus-sentidos-20120725-0098.html 
+Disallow: /arteseideas/Que-Mexico-en-tus-sentidos-quedo-a-deber-20110303-0106.html 
+Disallow: /politica/Dictan-formal-prision-a-productor-de-Mexico-en-tus-sentidos-20120728-0021.html
+```
+
+
+### La República
+
+1. Archivo Robots.txt
+```
+robots.txt
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot
+Disallow: /vista-previa/
+User-agent: Googlebot-News
+Allow: /
+User-agent: Googlebot-News
+Disallow: /vista-previa/
+User-agent: *
+Allow: /
+User-agent: *
+Disallow: /vista-previa/
+
+Sitemap: https://www.larepublica.co/sitemapindex
+Sitemap: https://www.larepublica.co/sitemapnews
+```
+
+
+### Portafolio
+
+1. Archivo Robots.txt
+```
+Sitemap: http://www.portafolio.co/sitemap-index.xml
+Sitemap: http://www.portafolio.co/sitemap-google-news.xml
+
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-News
+Allow: /
+User-agent: *
+Allow: /
+User-agent: sitecheck.internetseer.com
+Disallow: /
+User-agent: Zealbot
+Disallow: /
+User-agent: MSIECrawler
+Disallow: /
+User-agent: SiteSnagger
+Disallow: /
+User-agent: WebStripper
+Disallow: /
+User-agent: WebCopier
+Disallow: /
+User-agent: Fetch
+Disallow: /
+User-agent: Offline Explorer
+Disallow: /
+User-agent: Teleport
+Disallow: /
+User-agent: TeleportPro
+Disallow: /
+User-agent: WebZIP
+Disallow: /
+User-agent: linko
+Disallow: /
+User-agent: HTTrack
+Disallow: /
+User-agent: Microsoft.URL.Control
+Disallow: /
+User-agent: Xenu
+Disallow: /
+User-agent: larbin
+Disallow: /
+User-agent: libwww
+Disallow: /
+User-agent: ZyBORG
+Disallow: /
+User-agent: Download Ninja
+Disallow: /
+User-agent: UbiCrawler
+Disallow: /
+User-agent: DOC
+Disallow: /
+User-agent: Zao
+Disallow: /
+User-agent: Slurp
+Disallow: /
+User-agent: Maxthon
+Disallow: /
+User-agent: CNCDialer
+Disallow: /
+```
+
