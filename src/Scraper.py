@@ -15,7 +15,7 @@ import time
 
 class Scrapper:
     def __init__(self):	
-      print "Inicio Scraper"
+      print("Inicio Scraper")
       # Load the configuration file in the first argument
       with open(sys.argv[1]) as f:
           configf = f.read()
@@ -32,11 +32,12 @@ class Scrapper:
       print("Storage file"+self.filename)
       print("Plugins del "+str(self.initial)+" hasta el "+str(self.final))
       self.counter=self.initial
+      self.listObs=[]
 
     def load_file(self):
       exists=os.path.isfile(self.filename)
       if exists:
-      	with open(self.filename, mode='r') as csv_file:
+        with open(self.filename, mode='r') as csv_file:
           csv_reader = csv.DictReader(csv_file)
         csv_file.close()
           
@@ -52,10 +53,19 @@ class Scrapper:
       #print(tenab_json)
       #Convierte el contenido json en un diccionario se que pueda 
       newDictionary=json.loads(tenab_json)
-      print(newDictionary)
+      #print(newDictionary)
+      self.listObs.append(newDictionary['props']['pageProps']['plugin'])
     	
     def store_obs(self):
       print("storing Obs")
+      fields=set()
+      for i in self.listObs:
+          fields=fields.union(set(i.keys()))
+      with open('mycsvfile.csv','wb') as f:
+          w = csv.DictWriter(f,fieldnames=fields)
+          w.writeheader()
+          w.writerows(self.listObs)
+      
     
      	
     def check_end(self):
