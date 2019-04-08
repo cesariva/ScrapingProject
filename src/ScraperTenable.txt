@@ -1,0 +1,9 @@
+[target]
+base_url= https://www.tenable.com/plugins/nessus/
+scrap_file=tenable.csv
+initial_plugin=45345
+final_plugin=45360
+
+[general]
+#Query delay in seconds
+query_delay=5
