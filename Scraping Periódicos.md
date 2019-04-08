@@ -34,6 +34,9 @@ Crawl-delay: 2
 Sitemap: http://www.elfinanciero.com.mx/sitemap.xml
 Sitemap: http://www.elfinanciero.com.mx/sitemap-google-news.xml
 ```
+2. Mapa de sitio
+Están incluidos en el archivo robots.txt y son http://www.elfinanciero.com.mx/sitemap.xml, y http://www.elfinanciero.com.mx/sitemap-google-news.xml.
+
 ### El Economista
 
 1. Archivo Robots.txt
@@ -50,6 +53,8 @@ Disallow: /arteseideas/Que-Mexico-en-tus-sentidos-quedo-a-deber-20110303-0106.ht
 Disallow: /politica/Dictan-formal-prision-a-productor-de-Mexico-en-tus-sentidos-20120728-0021.html
 ```
 
+2. Mapa de sitio
+Están incluidos en el archivo robots.txt y son https://www.eleconomista.com.mx/sitemaps/googlenews.xml, https://www.eleconomista.com.mx/sitemaps/index.xml y https://www.eleconomista.com.mx/sitemaps/daily.xml
 
 ### La República
 
@@ -72,6 +77,8 @@ Disallow: /vista-previa/
 Sitemap: https://www.larepublica.co/sitemapindex
 Sitemap: https://www.larepublica.co/sitemapnews
 ```
+2. Mapa de sitio
+Están incluidos en el archivo robots.txt y son https://www.larepublica.co/sitemapindex y https://www.larepublica.co/sitemapnews
 
 
 ### Portafolio
@@ -138,4 +145,5 @@ Disallow: /
 User-agent: CNCDialer
 Disallow: /
 ```
-
+2. Mapa de sitio
+Están incluidos en el archivo robots.txt y son http://www.portafolio.co/sitemap-index.xml y http://www.portafolio.co/sitemap-google-news.xml
