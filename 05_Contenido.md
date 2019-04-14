@@ -103,11 +103,11 @@ Critical, High, Medium, Low o Info."
 ## Inf. Especifica plugin
 * dependencies:Otros plugins necesarios para poder ejecutar este plugin.
 * filename:Nombre de archivo del plugin.
-"* plugin_type:Tipo de plugin utilizado para identificar la vulnerabilidad. 
-Local es un plugin que debio correr de manera local en el componente evaluado. 
-Remote es un plugin que pudo identificar la vulnerabilida desde la red. 
-Combined que necesito ambas pruebas tanto locales como de red.
-Summary da información de la prueba no necesariamente una vulnerabilidad.."
+* plugin_type:Tipo de plugin utilizado para identificar la vulnerabilidad. 
+** Local es un plugin que debio correr de manera local en el componente evaluado. 
+** Remote es un plugin que pudo identificar la vulnerabilida desde la red. 
+** Combined que necesita ambas pruebas tanto locales como de red.
+** Summary da información de la prueba no necesariamente una vulnerabilidad..
 * potential_vulnerability:La vulnerabilidad identificada es potencial, es decir no se tiene una certeza absoluta de que la vulnerabilidad este presente, puede tratarse de un falso positivo..
 * script_copyright:Derechos de autor de cada plugin.
 * script_required_ports:Puertos de red necesarios por el plugin para realizar su prueba.
