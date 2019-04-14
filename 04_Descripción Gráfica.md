@@ -1,4 +1,4 @@
-# Descripción Gráfica
+# DESCRIPCIÓN GRÁFICA
 
 A continuación se muestra la descripción gráfica del data set
 
