@@ -4,6 +4,6 @@ A continuación se presenta la tabla de contribuciones, aceptada por los integra
 
 |Contribuciones | Firmas|
 |----------|----------|
-|Investigación Previa |   VNAM,   |
-|Redacción de las respuestas|   VNAM,  |
-|Desarrollo del código |  VNAM,   |
+|Investigación Previa |   VNAM, CIRS   |
+|Redacción de las respuestas|   VNAM, CIRS |
+|Desarrollo del código |  VNAM, CIRS  |
